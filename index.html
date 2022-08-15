@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Project</title>
+  <link rel="stylesheet" href="assets/css/project.css">
+  <link rel="icon" href="assets/image/programmer-icon.webp" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+      <ul>
+        <li><a href="https://dumbways.id/"><img src="assets/image/brandred.png" alt="brandred" width="30px"></a>
+        <li><a href="home.html">Home</a></li>
+        </li>
+        <li><a href="index.html">My Project</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <button><a href="form.html">Contack Me</a></button>
+    </div>
+  </nav>
+  <h1>ADD MY PROJECT</h1>
+
+  <div class="project">
+    <form>
+      <div class="name">
+        <label for="input-name">Project Name</label><br>
+        <input id="input-name" type="text">
+      </div>
+
+      <div class="start-date">
+        <div class="start-date-left">
+          <label for="input-start-date">Start Date</label><br>
+          <input id="input-start-date" type="date">
+        </div>
+        <div class="end-date-right">
+          <label for="input-end-date">End Date</label><br>
+          <input id="input-end-date" type="date">
+        </div>
+      </div>
+
+      <div class="message">
+        <label for="input-message">Your Message</label><br>
+        <textarea name="" id="input-message" cols="" rows="5"></textarea>
+      </div>
+      <div class="checkbox" id="checkbox">
+        <p>Technologies</p>
+        <div class="check-1">
+          <input type="checkbox" name="" id="react" value="fa-react">
+          <label for="">React</label>
+          <input type="checkbox" name="" id="javaScript" value="fa-square-js">
+          <label for="">javaScript</label>
+        </div>
+        <div class="check-2">
+          <input type="checkbox" name="" id="node" value="fa-node-js">
+          <label for="">Node JS</label>
+          <input type="checkbox" name="" id="docker" value="fa-docker">
+          <label for="">Docker</label>
+        </div>
+      </div>
+      <div class="image">
+        <label for="input-image">Upload Image</label><br>
+        <input type="file" name="" id="input-image">
+      </div>
+      <div class="btn">
+        <button type="button" onclick="addProject()">Submit</button>
+      </div>
+    </form>
+    <div>
+      <h1>My Project</h1>
+    </div>
+  </div>
+
+    <div class="blog" id="new-post">
+      <div class="card" >
+        <div class="gallery">
+          <img src="assets/image/information-articles-blogging-device-screen.jpg" width="100%">
+          <div class="desc">
+            <h3>Dumbways Mobil APP 2022</h3>
+            <span><p>Duration</p>
+              <p>durasi: 3 bulan</p>
+            </span><br>
+            <p>Lorem ipsum dolor sit amet consectetur         adipisicing elit. Iusto iste expedita delectus qu is illo sequi
+            soluta numquam ipsum temporibus a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eaque
+            consequatur, provident natus qui numquam architecto quibusdam autem itaque nam quas ipsam repellat
+            dignissimos vitae, voluptatum tenetur laudantium fugiat facilis!</p>
+      
+            <h3>Technologies</h3>
+            <div class="icon">
+              <span><i class="fa-brands fa-react"></i></span>
+              <span><i class="fa-brands fa-square-js"></i></span>
+              <span><i class="fa-brands fa-node-js"></i></span>
+              <span><i class="fa-brands fa-docker"></i></span>
+            </div>
+            <div class="btn-group">
+              <button>Edit</button>
+              <button>Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="assets/js/project.js"></script>
+</body>
+
+</html>

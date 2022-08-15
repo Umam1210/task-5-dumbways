@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="icon" href="assets/image/programmer-icon.webp" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li><a href="https://dumbways.id/"><img src="assets/image/brandred.png" alt="brandred" width="30px"></a>
+                    <li><a href="home.html">Home</a></li>
+                </li>
+                 <li><a href="index.html">My Project</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <button>Contack Me</button>
+        </div>
+    </nav>
+    
+    <h2>GET IN TOUCH</h2>
+
+    <div class="contack">
+        <form action="">
+            <div class="name">
+                <label for="input-name">Name</label><br>
+                <input id="input-name" type="text">
+            </div>
+            <div class="email">
+                <label for="input-email">Email</label><br>
+                <input id="input-email" type="email">
+            </div>
+            <div class="phone">
+                <label for="input-number">Phone Number</label><br>
+                <input id="input-number" type="text">
+            </div>
+
+            <div class="subject">
+                <label for="input-subject">Subject</label><br>
+                <select name="" id="input-subject">
+                    <option value=""></option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="Fullstack">Fullstack</option>
+                </select>
+            </div>
+
+            <div class="message">
+                <label for="input-message">Your Message</label><br>
+                <textarea name="" id="input-message" cols="" rows="5"></textarea>
+            </div>
+
+            <div class="btn">
+                <button type="button" onclick="dataUser()">Submit</button>
+            </div>
+
+        </form>
+        <script src="assets/js/form.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(239, 236, 236);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 50%;
+    padding-left: 40px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-left ul li {
+    list-style-type: none;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.nav-right button {
+    border-radius: 5px;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+}
+
+.nav-right button a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 97.5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 5px #aaa;
+    cursor: pointer;
+}
+
+.start-date {
+    display: flex;
+}
+
+.start-date-left {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.end-date-right {
+    margin-right: 0px;
+}
+
+.start-date-left input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 5px #aaa;
+    cursor: pointer;
+
+}
+
+.end-date-right input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 5px #aaa;
+    cursor: pointer;
+}
+
+textarea {
+    padding: 10px;
+    border: none;
+    width: 97.5%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    box-shadow: 2px 4px 5px #aaa;
+    cursor: pointer;
+}
+
+.check-1,
+.check-2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.check-1 label {
+    margin-right: 60px;
+
+}
+
+.check-2 label {
+    margin-right: 40px;
+    /* margin-top: 50px; */
+}
+
+.image input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 97.5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 5px #aaa;
+    cursor: pointer;
+    background-color: white;
+}
+
+.image label {
+    margin-top: 5px;
+}
+
+button {
+    background-color: black;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1px;
+}
+
+
+form {
+    width: 867px;
+    margin: auto;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+
+    width: 400px;
+    margin: 25px;
+}
+
+.card .gallery {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc h3, span {
+    padding: 15px;
+    text-align: center;
+}
+
+div.desc p{
+    text-align: justify;
+    margin: 10px;
+}
+.gallery img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group button {
+    flex: 10%;
+    margin: 10px;
+}
+.icon{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 0;
+    /* justify-content: space-evenly; */
+}
+.icon i{
+    font-size: 50px;
+    margin: 0;
+}
